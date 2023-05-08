@@ -35,7 +35,7 @@ class Employee extends Model
 
     public function city()
     {
-        return $this->belongsTo(Department::class);
+        return $this->belongsTo(City::class);
     }
 
     public function department()
